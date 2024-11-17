@@ -90,7 +90,7 @@ void preOrderByMorris(Node *root, vector<int> &ans)
             }
 
             // Make curr the right child of its
-            // inorder predecessor
+            // preOrder predecessor
             if (prev->right == nullptr)
             {
                 prev->right = curr;
@@ -120,8 +120,8 @@ void postOrderByMorris(Node *root, vector<int> &ans)
         if (curr->right == nullptr)
         {
 
-            // If no left child, visit this node
-            // and go right
+            // If no right child, visit this node
+            // and go left
             ans.push_back(curr->data);
             curr = curr->left;
         }
@@ -130,14 +130,15 @@ void postOrderByMorris(Node *root, vector<int> &ans)
 
             // Find the inorder predecessor of curr
             Node *prev = curr->right;
+
             while (prev->left != nullptr &&
                    prev->left != curr)
             {
                 prev = prev->left;
             }
 
-            // Make curr the right child of its
-            // inorder predecessor
+            // Make curr the left child of its
+            // postorder predecessor
             if (prev->left == nullptr)
             {
                 prev->left = curr;
@@ -155,6 +156,7 @@ void postOrderByMorris(Node *root, vector<int> &ans)
             }
         }
     }
+    //*** We want LRN but we stor NRL so we need to reverse the array */
     reverse(ans.begin(), ans.end());
     return;
 }
