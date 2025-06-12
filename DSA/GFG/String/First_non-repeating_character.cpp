@@ -34,4 +34,5 @@ public:
 
         return (idx == -1) ? -1 : vis[idx];
     }
+    
 };
