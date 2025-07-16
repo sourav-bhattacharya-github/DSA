@@ -29,3 +29,16 @@ int main()
     }
     return 0;
 }
+
+/*
+    *
+   **
+  ***
+ ****
+*****
+
+This code prints a right-angled triangle pattern of asterisks based on the input integer n.
+The outer loop iterates through each row, while the inner loops print spaces and asterisks for each row.
+The output will be a right-angled triangle where the number of asterisks in each row corresponds to the row number, and spaces are added to align the triangle to the right.
+The time complexity of this code is O(n^2) because there are two nested loops,
+*/

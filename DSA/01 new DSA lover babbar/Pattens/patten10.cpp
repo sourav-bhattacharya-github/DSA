@@ -71,4 +71,9 @@ final result---------
 12******21
 1********1
 
+This code prints a pattern that combines numbers and stars in a specific format based on the input integer n.
+The outer loop iterates through each row, while the inner loops print numbers and stars for each row.
+The output will be a combination of numbers and stars where the first part contains numbers in descending order, the second part contains stars, and the third part contains numbers in ascending order.
+The time complexity of this code is O(n^2) because there are three nested loops, each iterating up to n in the worst case.
+The space complexity is O(1) as we are using only a constant amount of extra space.
 */

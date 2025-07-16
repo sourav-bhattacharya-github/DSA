@@ -29,3 +29,16 @@ int main()
     }
     return 0;
 }
+
+/*
+12345
+ 2345
+  345
+   45
+    5
+
+This code prints a right-angled triangle pattern of numbers based on the input integer n.
+The outer loop iterates through each row, while the inner loops print spaces and numbers for each row.
+The output will be a right-angled triangle where the first row starts with 1, the second row starts with 2, and so on, with each subsequent row containing one less number than the previous row.
+The time complexity of this code is O(n^2) because there are two nested loops,
+*/
