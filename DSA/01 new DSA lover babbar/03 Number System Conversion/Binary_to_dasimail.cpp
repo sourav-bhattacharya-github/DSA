@@ -20,3 +20,6 @@ int main()
     cout << "the new Number : " << dacimail;
     return 0;
 }
+// This code converts a binary number to its decimal equivalent.
+// It takes a binary number as input, processes each bit, and calculates the decimal value using the formula bit * 2^i, where i is the position of the bit.
+// The final result is printed as the decimal equivalent of the binary input.

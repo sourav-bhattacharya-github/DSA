@@ -24,3 +24,6 @@ int main()
     cout << " The Binary " << result << endl;
     return 0;
 }
+// This code converts a decimal number to its binary equivalent.
+// It takes a decimal number as input, processes each bit using bitwise operations, and calculates the binary value by shifting bits and using powers of 10.
+// The final result is printed as the binary equivalent of the decimal input.
