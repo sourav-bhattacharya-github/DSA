@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    cout << "print patten" << endl;
-    cout << "Enter a integer Numbe" << endl;
+    cout << "print pattern" << endl;
+    cout << "Enter an integer number:" << endl;
     int n;
     cin >> n;
     cout << n << endl;

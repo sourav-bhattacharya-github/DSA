@@ -8,7 +8,8 @@ using namespace std;
 
 int main()
 {
-    cout << " Enter a integer number : ";
+    cout << " Enter a integer number
+     : ";
 
     int n;
     cin >> n;
@@ -31,5 +32,28 @@ int main()
     // }
 
     cout << " The Binary " << result << endl;
+    return 0;
+}
+
+
+Copy the code
+#include <iostream>
+#include <bitset>
+#include <string>
+
+std::string decimalToBinary(int num, int bits = 8) {
+    if (num < 0) {
+        num = (1 << bits) + num; // Two's complement for negative numbers
+    }
+    std::bitset<32> binary(num); // Use bitset for binary representation
+    return binary.to_string().substr(32 - bits); // Extract the required bit size
+}
+
+int main() {
+    int decimalNumber = -10;
+    int bitSize = 8; // Adjust bit size as needed
+    std::string binaryRepresentation = decimalToBinary(decimalNumber, bitSize);
+    std::cout << "Binary representation of " << decimalNumber 
+              << " in " << bitSize << "-bit: " << binaryRepresentation << std::endl;
     return 0;
 }

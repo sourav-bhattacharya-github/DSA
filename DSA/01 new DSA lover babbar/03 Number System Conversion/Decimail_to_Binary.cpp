@@ -1,4 +1,4 @@
-// Convert binarray to  dasimal
+// Convert binarray to  decimal
 
 #include <iostream>
 #include <math.h>
