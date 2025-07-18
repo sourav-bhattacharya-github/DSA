@@ -11,7 +11,7 @@ int main()
 
     bool flack = 1;
 
-    for (int i = 2; i < n / 2; i++)
+    for (int i = 2; i * i < n; i++)
     {
         if (n % i == 0)
         {
@@ -32,3 +32,8 @@ int main()
 
     return 0;
 }
+// This code checks if a given integer n is a prime number.
+// It iterates from 2 to the square root of n, checking if n is divisible by any of these numbers.
+// If it finds a divisor, it sets a flag to indicate that n is not prime.
+// If no divisors are found, it concludes that n is prime.
+// The time complexity of this code is O(sqrt(n)), as it only checks divisibility
