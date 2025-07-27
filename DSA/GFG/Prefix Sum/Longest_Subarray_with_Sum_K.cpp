@@ -16,7 +16,7 @@ int longestSubarray(vector<int> &arr, int k)
     int prefSum = 0;
 
     for (int i = 0; i < arr.size(); ++i)
-    {
+    {z
         prefSum += arr[i];
 
         // Check if the entire prefix sums to k
