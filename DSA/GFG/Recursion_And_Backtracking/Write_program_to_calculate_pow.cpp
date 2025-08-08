@@ -12,15 +12,25 @@ double power(double b, int e)
     if (e == 0)
         return 1;
 
+    // If exponent is negative, calculate the positive exponent
     if (e < 0)
+    {
         return 1 / power(b, -e);
+    }
 
+    // Calculate power using exponentiation by squaring
     double temp = power(b, e / 2);
 
+    // If exponent is even, use the property: pow(b, e) = pow(b, e/2) * pow(b, e/2)
     if (e % 2 == 0)
+    {
         return temp * temp;
+    }
+    // If exponent is odd, use the property: pow(b, e) = b * pow(b, e/2) * pow(b, e/2)
     else
+    {
         return b * temp * temp;
+    }
 }
 
 int main()
