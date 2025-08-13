@@ -1,7 +1,7 @@
 // Link: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal
 
 #include <bits/stdc++.h>
-using namespace std;
+    using namespace std;
 
 class Node
 {
