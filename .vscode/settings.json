@@ -19,6 +19,7 @@
     "stacktrace": "cpp",
     "regex": "cpp",
     "valarray": "cpp",
-    "new": "cpp"
+    "new": "cpp",
+    "ostream": "cpp"
   }
 }
