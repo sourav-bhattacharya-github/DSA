@@ -1,0 +1,38 @@
+# Compiled C++ binaries
+*.exe
+*.out
+*.o
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# for copy
+copy.txt
+
+# for graph
+# graph.png
