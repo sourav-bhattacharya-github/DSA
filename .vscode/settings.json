@@ -20,6 +20,11 @@
     "regex": "cpp",
     "valarray": "cpp",
     "new": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "barrier": "cpp",
+    "random": "cpp",
+    "latch": "cpp",
+    "limits": "cpp",
+    "semaphore": "cpp"
   }
 }
