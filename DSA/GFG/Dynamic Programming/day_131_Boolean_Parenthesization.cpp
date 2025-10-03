@@ -69,8 +69,8 @@ int countWays(string s)
     return dp[0][n - 1][1];
 }
 
-//============================================================================
-// Driver program to test above functions
+    //============================================================================
+    // Driver program to test above functions
 int main()
 {
     string s = "T|T&F^T";
