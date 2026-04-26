@@ -64,6 +64,7 @@ Explanation: The input string is "(()())(())(()(()))",
 Constraints:
 1 <= S.length <= 10^5
 S[i] is either '(' or ')'.
+
 =========================================================================
 Optimal Approach:
 Step 1: Initialize a counter to keep track of the number of open parentheses and an empty string to store the result.
