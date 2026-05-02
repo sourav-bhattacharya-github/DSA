@@ -1,5 +1,3 @@
-
-
 // Node Class
 class Node {
     int data;
