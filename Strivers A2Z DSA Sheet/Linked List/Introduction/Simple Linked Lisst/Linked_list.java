@@ -10,11 +10,11 @@ class Node {
 }
 
 // Linked List Class
-class LinkedListTemplate {
+class LinkedList {
     Node head;
     
     // Constructor
-    LinkedListTemplate() {
+    LinkedList() {
         this.head = null;
     }
     
@@ -131,7 +131,7 @@ class LinkedListTemplate {
 
 public class Linked_list {
     public static void main(String[] args) {
-        LinkedListTemplate list = new LinkedListTemplate();
+        LinkedList list = new LinkedList();
         
         // Insert elements
         list.insertAtEnd(10);
